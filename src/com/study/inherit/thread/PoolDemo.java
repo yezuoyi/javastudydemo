@@ -8,7 +8,7 @@ public class PoolDemo {
 	public static void main(String[] args) {
 		BlockingQueue<Runnable> workQueue = new LinkedBlockingDeque<>();
 
-		MyThreadPool pool = new MyThreadPool(2, workQueue);
+		MyThreadPool pool = new MyThreadPool(20, workQueue);
 
 		for (int i = 0; i < 1000; i++) {
 			//int num = i;

@@ -16,7 +16,7 @@ public class MyThreadPool {
 
 			// new Thread(workThread).start();
 			workThread.start();
-			workQueue.add(workThread);
+			//workQueue.add(workThread);
 		}
 	}
 
